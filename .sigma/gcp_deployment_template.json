@@ -1,0 +1,24 @@
+{
+  "resources": [
+    {
+      "name": "kkk",
+      "type": "gcp-types/cloudfunctions-v1:projects.locations.functions",
+      "properties": {
+        "parent": "projects/hirutest/locations/us-east1",
+        "function": "kkk",
+        "sourceArchiveUrl": "gs://sigma-slappforge-hirutest-us-east1-build-artifacts/sigma_builds/build_1593670098295.zip",
+        "entryPoint": "kkk",
+        "timeout": "60s",
+        "availableMemoryMb": 128,
+        "runtime": "nodejs8",
+        "httpsTrigger": {}
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "name": "HTTP(S) endpoint for kkk",
+      "value": "$(ref.kkk.httpsTrigger.url)"
+    }
+  ]
+}
