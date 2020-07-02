@@ -11,7 +11,13 @@
         "timeout": "60s",
         "availableMemoryMb": 128,
         "runtime": "nodejs8",
-        "httpsTrigger": {}
+        "httpsTrigger": {},
+        "environmentVariables": {
+          "AWS_DEFAULT_REGION": "us-east-1",
+          "AWS_ACCESS_KEY_ID": "AKIAIIY3EDJJUG7W5JOA",
+          "AWS_SECRET_ACCESS_KEY": "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",
+          "SIGMA_AWS_ACC_ID": "318300609668"
+        }
       }
     }
   ],

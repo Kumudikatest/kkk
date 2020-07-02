@@ -1,6 +1,8 @@
 {
   "name": "kkk",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "2.644.0"
+  },
   "devDependencies": {}
 }
