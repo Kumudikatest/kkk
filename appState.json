@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kkk.js",
         "cursor": {
-          "lineNumber": 12,
-          "column": 24
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs8",
@@ -48,6 +48,16 @@
         "children": [],
         "isRemovable": false,
         "filePath": "main.py"
+      },
+      "e1f01a1c-3fea-4157-b10a-5a8169f17e9c": {
+        "id": "e1f01a1c-3fea-4157-b10a-5a8169f17e9c",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
       }
     },
     "openFiles": [
@@ -312,6 +322,11 @@
             ]
           }
         }
+      },
+      "datastore": {
+        "name": "datastore",
+        "type": "CloudDatastore",
+        "config": {}
       }
     },
     "customTemplate": {
@@ -362,6 +377,13 @@
           "version": "2.644.0",
           "dev": false,
           "notRemovable": false
+        },
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
         }
       }
     }
@@ -377,7 +399,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1593674124999
+    "lastSave": 1593674261318
   },
   "VCS_STATE": {
     "provider": "GitHub",
